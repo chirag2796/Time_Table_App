@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.cgos.chirag.tutimetable.Groups_1Coe_Activity">
+
+    <Button
+        android:layout_width="105dp"
+        android:layout_height="105dp"
+        android:text="COE 1"
+        android:id="@+id/bcoe1"
+        android:layout_above="@+id/bcoe4"
+        android:layout_alignLeft="@+id/bcoe4"
+        android:layout_alignStart="@+id/bcoe4" />
+
+    <Button
+        android:layout_width="105dp"
+        android:layout_height="105dp"
+        android:text="COE 2"
+        android:id="@+id/bcoe2"
+        android:layout_above="@+id/bcoe5"
+        android:layout_alignLeft="@+id/bcoe5"
+        android:layout_alignStart="@+id/bcoe5" />
+
+    <Button
+        android:layout_width="105dp"
+        android:layout_height="105dp"
+        android:text="COE 3"
+        android:id="@+id/bcoe3"
+        android:layout_above="@+id/bcoe5"
+        android:layout_toRightOf="@+id/bcoe2"
+        android:layout_toEndOf="@+id/bcoe2" />
+
+    <Button
+        android:layout_width="105dp"
+        android:layout_height="105dp"
+        android:text="COE 4"
+        android:id="@+id/bcoe4"
+        android:layout_below="@+id/bcoe2"
+        android:layout_toLeftOf="@+id/bcoe2"
+        android:layout_toStartOf="@+id/bcoe2" />
+
+    <Button
+        android:layout_width="105dp"
+        android:layout_height="105dp"
+        android:text="COE 5"
+        android:id="@+id/bcoe5"
+        android:layout_alignTop="@+id/bcoe6"
+        android:layout_alignLeft="@+id/bcoe8"
+        android:layout_alignStart="@+id/bcoe8" />
+
+    <Button
+        android:layout_width="105dp"
+        android:layout_height="105dp"
+        android:text="COE 6"
+        android:id="@+id/bcoe6"
+        android:layout_above="@+id/bcoe9"
+        android:layout_alignLeft="@+id/bcoe9"
+        android:layout_alignStart="@+id/bcoe9" />
+
+    <Button
+        android:layout_width="105dp"
+        android:layout_height="105dp"
+        android:text="COE 7"
+        android:id="@+id/bcoe7"
+        android:layout_below="@+id/bcoe5"
+        android:layout_toLeftOf="@+id/bcoe5"
+        android:layout_toStartOf="@+id/bcoe5" />
+
+    <Button
+        android:layout_width="105dp"
+        android:layout_height="105dp"
+        android:text="COE 8"
+        android:id="@+id/bcoe8"
+        android:layout_above="@+id/adViewCoe2"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="105dp"
+        android:layout_height="105dp"
+        android:text="COE 9"
+        android:id="@+id/bcoe9"
+        android:layout_above="@+id/adViewCoe2"
+        android:layout_toRightOf="@+id/bcoe8"
+        android:layout_toEndOf="@+id/bcoe8" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Holiday Calender"
+        android:id="@+id/tvHolidayCalender"
+        android:textSize="20dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="10dp"
+        android:layout_above="@+id/tvTUEssentials"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="CGoS"
+        android:id="@+id/textView"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="17dp"
+        android:textColor="@color/abc_secondary_text_material_light" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Get TU Essentials app"
+        android:id="@+id/tvTUEssentials"
+        android:textSize="17dp"
+        android:textColor="@color/abc_secondary_text_material_light"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adViewCoe2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_home_footer"
+        android:layout_above="@+id/tvHolidayCalender"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+    </com.google.android.gms.ads.AdView>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adViewCoe1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_home_footer"
+        android:layout_above="@+id/bcoe1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+    </com.google.android.gms.ads.AdView>
+
+
+</RelativeLayout>
