@@ -64,6 +64,17 @@ public class ToastCheck {
             case "Embedded": subject="";
                 break;
 
+            case "Control Systems": subject = "UEC604";
+                break;
+            case "Fiber Optics": subject = "UEC802";
+                break;
+            case "ASIC": subject = "UEC701";
+                break;
+            case "Wireless Comm": subject = "UEC804";
+                break;
+            case "Soft Computing": subject = "UEC723";
+                break;
+
 
             default: subject="";
         }

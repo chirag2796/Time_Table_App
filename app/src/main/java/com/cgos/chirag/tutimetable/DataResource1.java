@@ -375,142 +375,142 @@ public class DataResource1 {
 //sem 6
     final String[] Ece2M_s = {
             "FREE",
-            "Data Structures",
-            "LICA",
-            "Embedded",
-            "OT",
-            "FREE",
-            "Entrepreneurship",
-            "Entrepreneurship",
-            "Entrepreneurship"
-    };
-
-    final String[] Ece2M_r = {
-            "",
-            "E101",
-            "E101",
-            "E101",
-            "E101",
-            "",
-            "T105",
-            "E101",
-            "E101"
-    };
-
-    final int[] Ece2M_th = {
-            R.mipmap.f, R.mipmap.l, R.mipmap.l, R.mipmap.l, R.mipmap.l, R.mipmap.f, R.mipmap.l, R.mipmap.p, R.mipmap.p
-    };
-
-    final String[] Ece2T_s = {
-            "LICA",
-            "LICA",
-            "Antenna",
-            "Data Structures",
-            "FREE",
-            "Embedded",
-            "Embedded",
-            "Data Structures",
-            "Data Structures"
-    };
-
-    final String[] Ece2T_r = {
-            "FOC LAB",
-            "FOC LAB",
-            "E101",
-            "E101",
-            "",
-            "MC LAB",
-            "MC LAB",
-            "MCA1 LAB",
-            "MCA1 LAB"
-    };
-
-    final int[] Ece2T_th = {
-            R.mipmap.p, R.mipmap.p, R.mipmap.l, R.mipmap.l, R.mipmap.f, R.mipmap.p, R.mipmap.p, R.mipmap.p, R.mipmap.p
-    };
-
-    final String[] Ece2W_s = {
-            "OT",
-            "Embedded",
-            "LICA",
-            "Antenna",
-            "FREE",
-            "OT",
-            "FREE",
-            "Antenna",
-            "Antenna"
-    };
-
-    final String[] Ece2W_r = {
-            "E101",
-            "E101",
-            "E208",
-            "E208",
-            "",
-            "E101",
-            "",
-            "AWP Lab",
-            "AWP Lab"
-    };
-
-    final int[] Ece2W_th = {
-            R.mipmap.l, R.mipmap.l, R.mipmap.t, R.mipmap.t, R.mipmap.f, R.mipmap.t, R.mipmap.f, R.mipmap.p, R.mipmap.p
-    };
-
-    final String[] Ece2Th_s = {
-            "FREE",
-            "Embedded",
-            "LICA",
-            "Antenna",
-            "Data Structures",
-            "FREE",
-            "OT",
-            "FREE",
-            "FREE",
-    };
-
-    final String[] Ece2Th_r = {
-            "",
-            "E101",
-            "E101",
-            "E101",
-            "E101",
-            "",
-            "E101",
-            "",
-            "",
-    };
-
-    final int[] Ece2Th_th = {
-            R.mipmap.f, R.mipmap.t, R.mipmap.l, R.mipmap.l, R.mipmap.l, R.mipmap.f, R.mipmap.l, R.mipmap.f, R.mipmap.f
-    };
-
-    final String[] Ece2F_s = {
-            "Embedded",
-            "Antenna",
-            "Data Structures",
-            "FREE",
-            "FREE",
+            "Elective",
+            "Control Systems",
+            "Fiber Optics",
+            "Control Systems",
             "FREE",
             "FREE",
             "FREE",
             "FREE"
     };
 
-    final String[] Ece2F_r = {
-            "E101",
-            "E101",
-            "E101",
+    final String[] Ece2M_r = {
             "",
-            "",
+            "F104",
+            "F103",
+            "F108",
+            "F108",
             "",
             "",
             "",
             ""
     };
 
+    final int[] Ece2M_th = {
+            R.mipmap.f, R.mipmap.l, R.mipmap.l, R.mipmap.t, R.mipmap.t, R.mipmap.f, R.mipmap.f, R.mipmap.f, R.mipmap.f
+    };
+
+    final String[] Ece2T_s = {
+            "FREE",
+            "Elective",
+            "ASIC",
+            "Fiber Optics",
+            "Wireless Comm",
+            "FREE",
+            "FRee",
+            "Fiber Optics",
+            "Fiber Optics"
+    };
+
+    final String[] Ece2T_r = {
+            "",
+            "F104",
+            "F103",
+            "F103",
+            "F103",
+            "",
+            "",
+            "FOC LAB",
+            "FOC LAB"
+    };
+
+    final int[] Ece2T_th = {
+            R.mipmap.f, R.mipmap.l, R.mipmap.l, R.mipmap.l, R.mipmap.l, R.mipmap.f, R.mipmap.f, R.mipmap.p, R.mipmap.p
+    };
+
+    final String[] Ece2W_s = {
+            "",
+            "Elective(SC/Digital)",
+            "Control Systems",
+            "Fiber Optics",
+            "FREE",
+            "FREE",
+            "FREE",
+            "Elective(Dig Des)",
+            "Elective(Dig Des)"
+    };
+
+    final String[] Ece2W_r = {
+            "",
+            "F105/F104",
+            "F103",
+            "F103",
+            "",
+            "",
+            "",
+            "VLSI Lab",
+            "VLSI Lab"
+    };
+
+    final int[] Ece2W_th = {
+            R.mipmap.f, R.mipmap.t, R.mipmap.l, R.mipmap.l, R.mipmap.f, R.mipmap.f, R.mipmap.f, R.mipmap.p, R.mipmap.p
+    };
+
+    final String[] Ece2Th_s = {
+            "Elective(Analog)",
+            "Elective",
+            "ASIC",
+            "Fiber Optics",
+            "Wireless Comm",
+            "FREE",
+            "FREE",
+            "Wireless Comm",
+            "Wireless Comm",
+    };
+
+    final String[] Ece2Th_r = {
+            "F105",
+            "F104(SC)",
+            "F103",
+            "F103",
+            "F103",
+            "",
+            "",
+            "MWC Lab",
+            "MWC Lab",
+    };
+
+    final int[] Ece2Th_th = {
+            R.mipmap.l, R.mipmap.l, R.mipmap.l, R.mipmap.l, R.mipmap.l, R.mipmap.f, R.mipmap.f, R.mipmap.p, R.mipmap.p
+    };
+
+    final String[] Ece2F_s = {
+            "Soft Computing",
+            "Soft Computing",
+            "Control Systems",
+            "ASIC",
+            "Wireless Comm",
+            "FREE",
+            "Wireless Comm",
+            "Analog IC",
+            "Analog IC"
+    };
+
+    final String[] Ece2F_r = {
+            "WMC Lab",
+            "WMC Lab",
+            "F103",
+            "F103",
+            "F103",
+            "",
+            "F105",
+            "VLSI Lab",
+            "VLSI Lab"
+    };
+
     final int[] Ece2F_th = {
-            R.mipmap.l, R.mipmap.l, R.mipmap.l, R.mipmap.f, R.mipmap.f, R.mipmap.f, R.mipmap.f, R.mipmap.f, R.mipmap.f
+            R.mipmap.p, R.mipmap.p, R.mipmap.l, R.mipmap.l, R.mipmap.l, R.mipmap.f, R.mipmap.t, R.mipmap.p, R.mipmap.p
     };
 
     final String[] Ece3M_s = {

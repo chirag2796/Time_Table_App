@@ -42,7 +42,7 @@ public class HomeActivity extends AppCompatActivity {
         final String GroupName = intent.getStringExtra("GroupName");
         final TextView tvcheck = (TextView) findViewById(R.id.tvCheck);
 
-        this.setTitle("III Year "+GroupName.substring(0,3));
+        this.setTitle("IV Year "+GroupName.substring(0,3));
         tvcheck.setText(GroupName);
 
 
